@@ -1,0 +1,9 @@
+[package]
+name = "playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+builtin = { path = "/Users/luka/verus/source/builtin" }
+builtin_macros = { path = "/Users/luka/verus/source/builtin_macros" }
+vstd = { path = "/Users/luka/verus/source/vstd" }
