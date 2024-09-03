@@ -15,6 +15,8 @@ mod map_values_finite;
 mod extract_info_from_enums;
 mod map_sequences;
 mod spec_enforced_recommends;
+// mod spec_exists;
+mod new_implies;
 
 verus! {
 
