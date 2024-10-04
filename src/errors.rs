@@ -17,4 +17,9 @@ fn test(v: &Vec<i32>)
     }
 }
 
+// The following fails. It seems that you cannot define a trait that takes a
+// constant parameter.
+#[allow(dead_code)]
+pub trait Trait<const X: u64> {}
+
 }
