@@ -17,6 +17,8 @@ mod map_sequences;
 mod spec_enforced_recommends;
 // mod spec_exists;
 mod new_implies;
+// mod liveness_definitions;
+mod unsafe_code;
 
 verus! {
 
